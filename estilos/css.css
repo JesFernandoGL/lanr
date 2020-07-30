@@ -857,12 +857,25 @@ footer .seccion ul li a{
     overflow: hidden;
 }
 
+.contenedor_colab2_sub{
+    width: 100%;
+    background: rgba(169, 169, 169, 0);
+    max-width: 1000px;
+    overflow: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
 .contenedor_colab3{
     width: 100%;
     background: rgba(169, 169, 169, 0);
     max-width: 1000px;
     overflow: auto;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .caja_colab_terciario{
@@ -871,7 +884,6 @@ footer .seccion ul li a{
     padding: 0 1%;
     background: rgba(59, 196, 116, 0);
     margin: 5px 0;
-    float: left;
 }
 
 .caja_foto_colab3{
