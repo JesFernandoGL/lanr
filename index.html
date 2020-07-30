@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/css.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="estilos/carrousel.css">
+    <link rel="icon" href="img/isotipoLANR.svg">
+    <title>LANR</title>
+</head>
+<body>
+    <!--header-->
+    <header id="header">
+        <div id="caja_logos_izquierda">
+            <div id="logo_izquierda">
+                <a href="https://www.unam.mx/" target="_blank">
+                <img src="img/unam_blanco.png" alt="logo_unam">
+                </a>
+            </div>
+            <div id="logo_LANR">
+                <a href="index.html">
+                <img src="img/logotipo.svg" alt="logotipo_LANR"></a>
+            </div>            
+        </div>
+        <div id="caja_logo_derecha">
+            <div id="logo_IFC">
+                <a href="#">
+                    <img src="img/ifc_logo.png" alt="#" style="width: 100%;"></a>
+            </div>
+        </div>
+
+    </header>
+
+    <!--empieza carrousel-->
+
+    <div id="carrousel">
+        <div class="mySlides fade">
+            <img class="img_carrousel" src="img/IFC_largo.jpg" alt="">
+            <div class="cont_titulo_carousel">LANR</div>
+            <a href="#contenedor" class="cont_desc_img_carousel">Conoce más sobre quiénes somos y qué ayuda ofrecemos
+            </a>
+        </div>
+        <div class="mySlides fade" style="display: none;">
+            <img class="img_carrousel" src="img/img2Invert_carrousel.jpg" alt="">
+            <div class="cont_titulo_carousel">Pacientes</div>
+            <a href="pacientes.html"><div class="cont_desc_img_carousel">Conoce nuestro espacio dedicado a los pacientes.
+            </div></a>
+        </div>
+        <div class="mySlides fade" style="display: none;">
+            <img class="img_carrousel" src="img/img3_carrousel.jpg" alt="">
+            <div class="cont_titulo_carousel">Juegos</div>
+            <a href="juegos.html"><div class="cont_desc_img_carousel">Visita los juegos que se han desarrollado y que finalidad tienen
+            </div></a> 
+        </div>
+        <div class="mySlides fade" style="display: none;">
+            <img class="img_carrousel" src="img/img4_carrousel.jpg" alt="">
+            <div class="cont_titulo_carousel">Servicio Social</div>
+            <a href="servicio.html"><div class="cont_desc_img_carousel">Te interesa unirte al equipo LANR, visita nuestros programas de servicio social
+            </div></a> 
+        </div>
+        <div class="cont_btn_carousel">
+            <div class="btn_carousel btn_carousel_activo_Prin"></div>
+            <div class="btn_carousel"></div>
+            <div class="btn_carousel"></div>
+            <div class="btn_carousel"></div>
+        </div>      
+    </div>
+
+    <!--empieza menú-->
+    <div id="caja_menu">
+    <div class="menu_bar">
+        <div class="bt_menu"><span class="icon-menu"></span>Menú</div>
+    </div>
+    <nav id="menu">
+            <ul>
+                <li><a class="activo" href="index.html"><span class="icon-home"></span></a></li>
+                <li><a href="pacientes.html">Pacientes</a></li>
+                <li><a href="juegos.html">Juegos</a></li>
+                <li><a href="educacion.html">Educación</a></li>
+                <li><a href="colaboradores.html">Colaboradores</a></li>
+                <li><a href="servicio.html">Servicio Social</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="https://lanr.ifc.unam.mx/citan/public/login">Login</a></li>
+            </ul>
+    </nav>
+    </div>
+
+    <!--contenido-->
+    <div id="contenedor">        
+        <div id="titulo_LANR">
+            <h1>Laboratorio de Investigación y Desarrollo de Aplicaciones Interactivas para la Neuro-Rehabilitación.</h1>
+        </div>
+        <!--dDescripción del LANR-->
+        <div class="caja_descripción">
+            <div id="caja_izquierda">
+                <div class="caja_contenido_izquierda">
+                    <h1>¿Quiénes somos?</h1>
+                        <p>El laboratorio está conformado por un grupo interdisciplinario interesado en desarrollar tecnología
+                            para adaptar, diseñar y aplicar un conjunto de tareas o actividades orientadas a la rehabilitación
+                            de pacientes con patologías de origen neurológico con el fin de mejorar su calidad de vida.</p>
+                        <img src="img/LANR_5.jpg" alt="">
+                </div>
+                <div class="caja_contenido_izquierda">
+                    <h1>¿Qué perseguimos?</h1>
+                    <p>El objetivo del laboratorio es desarrollar aplicaciones interactivas y sensores de movimiento, para
+                        reforzar las terapias de rehabilitación orientadas a la recuperación funcional motora y cognitiva en
+                        pacientes con discapacidades neurológicas. De tal forma que el paciente pueda utilizar nuestras
+                        herramientas desde su casa, mientras que el terapeuta podrá seguir su evolución de forma
+                        remota.
+                        <br>
+                        <br>
+                        Realizar ejercicios a través de videojuegos resulta más ameno, por lo que esperamos incrementar
+                        el nivel de motivación de los pacientes y presentarles retos que les resulten estimulantes,
+                        generando un mayor apego al tratamiento y en consecuencia un mejor resultado de la terapia.</p>
+                    <img src="img/2.jpg" alt="">
+                </div>
+                <div class="caja_contenido_izquierda ultima_caja_inicio">
+                    <h1>¿Cómo lo hacemos?</h1>
+                    <p>Recibimos la asesoría de especialistas en neuro-rehabilitación, quienes nos indican los ejercicios que pueden resultar más benéficos para los pacientes.
+                    <br>
+                    <br> 
+                    Después, mediante la plataforma de desarrollo Unity diseñamos la aplicación con la que el paciente realizará los ejercicios utilizando diferentes dispositivos, ya sea comerciales, como el Kinect o el Leap Motion, o desarrollos propios, como un mouse ergonómico o un guante de datos.
+                    <br>
+                    <br>
+                    Una vez que el software y hardware se encuentran listos evaluamos sus beneficios en hospital.</p>
+                    <img src="img/tecnologias.png" alt="">
+                    <a class="btn_LANR" href="contacto.html">Contáctanos</a>
+                </div>
+            </div>
+            <div id="caja_derecha">
+                <div class="caja_contenido_derecha"><a href="pacientes.html">
+                    <div class="contenido_derecha_imagen">
+                        <video class="video" src="img/pacientes.webm" loop muted></video>
+                    </div>
+                    <div class="contenido_derecha_texto"><h3>Pacientes</h3></div></a>
+                </div>                
+                <div class="caja_contenido_derecha"><a href="educacion.html#tripticos">
+                    <div class="contenido_derecha_imagen">
+                        <video class="video" src="img/divulgacion.webm" loop muted></video>
+                    </div>
+                    <div class="contenido_derecha_texto"><h3>Divulgación</h3></div></a>
+                </div>
+                <div class="caja_contenido_derecha"><a href="servicio.html">
+                    <div class="contenido_derecha_imagen">
+                        <video class="video" src="img/servicio_social.webm" loop muted></video>
+                    </div>
+                    <div class="contenido_derecha_texto"><h3>Servicio Social</h3></div></a>
+                </div>
+            </div>
+        </div>
+        <div class="titulo">
+            <h1>Juegos</h1>
+        </div>
+        <div class="contenedor_juegos">
+            <div class="caja_juegos"><a href="juegos.html"><img src="img/iconos/Topo.png" alt=""></a></div>
+            <div class="caja_juegos"><a href="juegos.html"><img src="img/iconos/Penal.png" alt=""></a></div>
+            <div class="caja_juegos"><a href="juegos.html"><img src="img/iconos/Sandwich.png" alt=""></a></div>
+            <div class="caja_juegos"><a href="juegos.html"><img src="img/iconos/Terapia.png" alt=""></a></div>
+            <div class="caja_juegos ultimo_juego"><a href="juegos.html"><img src="img/iconos/Charlie.png" alt=""></a></div>
+        </div>
+        <a class="btn_LANR" href="juegos.html">Más juegos</a>
+        <div class="titulo">
+            <h1>LANR en medios</h1>
+        </div>
+
+        <!--Carousel Medios-->
+        <div id="principal">
+            <div class="cont_art">
+                <div class="img_medio">
+                    <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0011/8448/brand.gif?itok=WE1a33uS" alt="">
+                </div>
+                <div class="datos_art">
+                    <a href="pdf/articulo_reforma.pdf" target="_blank">
+                        <h4>Videojuegos, un nuevo rol</h4>
+                        <h4>Israel Sánchez</h4>
+                        <p><b>(22 abril 2019).</b> Después de sufrir un Evento Vascular Cerebral (EVC), la presteza del tratamiento es vital para vencer la hemiparesia y recuperar la movilidad.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="cont_art">
+                <div class="img_medio">
+                    <img src="img/vertigo_icono.jpg" alt="">
+                </div>
+                <div class="datos_art">
+                    <a href="pdf/nota_vertigo.pdf" target="_blank">
+                        <h4>Con sello UNAM: Crean videojuegos para neurohabilitación</h4>
+                        <h4>J. Alberto Castro</h4>
+                        <p><b>(23 junio 2019).</b> “Cada juego se desarrolla con la finalidad de que el paciente realice cierto movimiento”</p>
+                    </a>
+                </div>
+            </div>
+            <div class="cont_art">
+                <div class="img_medio">
+                    <img src="img/logo_chinaXinhua.jpg" alt="">
+                </div>
+                <div class="datos_art">
+                    <a href="https://www.youtube.com/watch?v=oM3XMt3D5Jo&feature=emb_logo" target="_blank">
+                        <h4>Mexicanos de la UNAM desarrollan videojuegos para apoyar proyecto de neurorehabilitación</h4>
+                        <h4>China Xinhua</h4>
+                        <p><b>(07 agosto 2019). </b>Video</p>
+                    </a>
+                </div>
+            </div>
+            <div class="cont_art">
+                <div class="img_medio">
+                    <img src="https://pbs.twimg.com/profile_images/1199346653121011713/buGtO04c_400x400.jpg" alt="">
+                </div>
+                <div class="datos_art">
+                    <a href="pdf/gaceta_unam.pdf" target="_blank">
+                        <h4>Desarrollan nuevas herramientas de rehabilitación neurológica</h4>
+                        <h4>Guadalupe Lugo</h4>
+                        <p><b>(01 agosto 2016).</b> Está demostrado que la rehabilitación física ayuda a mejorar o, en el mejor de los casos, recuperar la movilidad en personas con este tipo de enfermedades.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="cont_art">
+                <div class="img_medio">
+                    <img src="img/unamlogo.jpg" alt="">
+                </div>
+                <div class="datos_art">
+                    <a href="pdf/dgcs_unam.pdf" target="_blank">
+                        <h4>Universitarios desarrollan herramientas de computo para rehabilitación neuronológica</h4>
+                        <p><b>(08 julio 2016).</b> El uso de elementos interactivos destinados a la rehabilitación neurológica podría permitir a los pacientes cierto grado de autonomía con relación al terapeuta.</p>
+                    </a>
+                </div>
+            </div>
+            <div id="cont_carousel_btn">
+                <div class="boton btn_carousel_activo"></div>
+                <div class="boton"></div>
+                <div class="boton"></div>
+                <div class="boton"></div>
+                <div class="boton"></div>
+            </div>        
+        </div>
+        
+        <!--termina carousel medios-->
+    
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="seccion texto_izquierda">
+            <h4>Páginas Relacionadas</h4>
+            <ul>
+                <li><a href="http://www.ifc.unam.mx/">Instituto de Fisiología Celular</a></li>
+                <li><a href="https://www.unam.mx/">UNAM</a></li>
+                
+            </ul>
+        </div>
+        <div class="seccion texto_centro">
+            <p>Recursos realizados por el equipo LANR</p>
+            <p>&copy; 2020 Todos los derechos reservados</p>
+        </div>
+        <div class="seccion texto_derecha">
+            <h4>Redes Sociales</h4>
+            <div class="cont_redes_footer">
+                <div class="icono_social"><a href="https://www.facebook.com/ifc.unam.lanr/" target="_blank"><img src="img/facebook_icono.png" alt=""></a>
+                    
+                </div>
+                <div class="icono_social"><a href=""><img src="img/maps_icono.png" alt=""></a>                
+                </div>
+            </div>
+        </div>
+        <div class="credito">
+            <p>Diseñador por:
+                <br>
+            Jesús Fernando Gómez Lozada
+            </p>
+
+        </div>
+    </footer>
+
+<script src="js/video.js"></script>    
+<script src="js/carouselmedios.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/carousel.js"></script>
+</body>
+</html>
