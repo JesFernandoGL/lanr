@@ -16,17 +16,7 @@ function mostrar2(){
 
 document.getElementsByClassName("btn_colab")[2].onclick=function(){mostrar2()};
 
-function mostrar3(){
-    document.getElementsByClassName("contenedor_colab3")[3].classList.toggle("desplegar");
-}
 
-document.getElementsByClassName("btn_colab")[3].onclick=function(){mostrar3()};
-
-function mostrar4(){
-    document.getElementsByClassName("contenedor_colab3")[4].classList.toggle("desplegar");
-}
-
-document.getElementsByClassName("btn_colab")[4].onclick=function(){mostrar4()};
 
 
 

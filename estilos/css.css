@@ -1546,6 +1546,7 @@ footer .seccion ul li a{
         font-size: 12px;
         float: left;
     }
+    
 
     .contenedor_colab3{
         display: none;
@@ -1560,7 +1561,10 @@ footer .seccion ul li a{
     .btn_colab h1{
         color: rgb(35, 55, 111)!important;
     }
-    .caja_colab_terciario{
+
+    
+
+    .caja_colab_terciario, .caja_colab_institucional{
         width: 100%;
         height: auto;
         margin: 10px auto;
