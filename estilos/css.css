@@ -12,7 +12,8 @@ body{
     background: rgb(35, 55, 111);
     width: 100%;
     height: 100px;
-    padding:0;    
+    padding:0;
+    border-bottom: 2px solid white;    
 
 }
 
@@ -579,13 +580,15 @@ footer .seccion ul li a{
     margin: auto;
     background: rgba(95, 158, 160, 0);
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .juego{
     box-sizing: border-box;
     background: rgba(153, 153, 153, 0);
     width: 33.3%;
     padding: 3%;
-    float: left;
     overflow: hidden;
     
     
@@ -675,20 +678,17 @@ footer .seccion ul li a{
 }
 
 .btn_cerrar{
-    background: rgb(128, 206, 56);
-    width: 4%;
+    box-sizing: border-box;
     height: 32px;
     top: 30px;
     right: 10px;
     position: absolute;
     padding: 0;
     max-width: 40px;
-    min-width: 23px;
-    color: rgb(35,55,111);
-    font-size: 24px;
+    min-width: 30px;
+    font-size: 30px;
     font-weight: bolder;
-    border-radius: 4px;
-    border: 3px solid rgb(35, 55, 111);
+    border: none;
     cursor: pointer;
     font-family: sans-serif;
 }
@@ -867,6 +867,15 @@ footer .seccion ul li a{
     flex-wrap: wrap;
 
 }
+
+.caja_colab_institucional{
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 0 1%;
+    background: rgba(59, 196, 116, 0);
+    margin: 5px 0;
+}
+
 .contenedor_colab3{
     width: 100%;
     background: rgba(169, 169, 169, 0);
@@ -879,7 +888,7 @@ footer .seccion ul li a{
 }
 
 .caja_colab_terciario{
-    width: 33.3%;
+    width: 25%;
     box-sizing: border-box;
     padding: 0 1%;
     background: rgba(59, 196, 116, 0);
@@ -887,7 +896,7 @@ footer .seccion ul li a{
 }
 
 .caja_foto_colab3{
-    width: 55%;
+    width: 70%;
     max-width: 110px;
     height: 140px;
     margin: 2% auto;

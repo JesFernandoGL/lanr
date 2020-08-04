@@ -13,15 +13,15 @@ linkIng.addEventListener("click", function(){
 
 linkInd.addEventListener("click", function(){
     progServicio[3].classList.add("desplegar");
-    progServicio[4].classList.add("desplegar");
 });
 
 linkGra.addEventListener("click", function(){
-    progServicio[5].classList.add("desplegar");
+    progServicio[4].classList.add("desplegar");
 
 });
 
 linkPsi.addEventListener("click", function(){
+    progServicio[5].classList.add("desplegar");
     progServicio[6].classList.add("desplegar");
     progServicio[7].classList.add("desplegar");
 
@@ -39,18 +39,18 @@ btnServicio[0].onclick=function(){mostrar()};
 
 function mostrar1(){
     progServicio[3].classList.toggle("desplegar");
-    progServicio[4].classList.toggle("desplegar");
 }
 
 btnServicio[1].onclick=function(){mostrar1()};
 
 function mostrar2(){
-    progServicio[5].classList.toggle("desplegar");
+    progServicio[4].classList.toggle("desplegar");
 }
 
 btnServicio[2].onclick=function(){mostrar2()};
 
 function mostrar3(){
+    progServicio[5].classList.toggle("desplegar");
     progServicio[6].classList.toggle("desplegar");
     progServicio[7].classList.toggle("desplegar");
 }
